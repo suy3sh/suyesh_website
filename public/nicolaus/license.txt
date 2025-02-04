@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nicolaus Copernicus Monument
+* source:	https://sketchfab.com/3d-models/nicolaus-copernicus-monument-cbccd5bdbb514bd7bda2bc9b26e0e4b2
+* author:	NANO (https://sketchfab.com/NanoGames)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nicolaus Copernicus Monument" (https://sketchfab.com/3d-models/nicolaus-copernicus-monument-cbccd5bdbb514bd7bda2bc9b26e0e4b2) by NANO (https://sketchfab.com/NanoGames) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
