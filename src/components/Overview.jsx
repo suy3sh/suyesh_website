@@ -103,7 +103,7 @@ const HobbyCardBack = ({index, title, icon, desc}) => {
   )
 }
 
-const About = () => {
+const Overview = () => {
 
   
   return (
@@ -170,4 +170,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(Overview, "overview");

@@ -38,7 +38,7 @@ const Hero = () => {
         <p className="text-center text-[13px] w-[400px] mb-12 text-secondary">
           The statue depicts Nicolaus Copernicus, a Renaissance astronomer dubbed as the "father of modern astronomy".
         </p>
-        <a href="#about">
+        <a href="#overview">
           <img src={arrow} className="w-10 h-10"></img>
         </a>
 
