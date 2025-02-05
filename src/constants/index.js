@@ -100,7 +100,7 @@ import {
     {
       title: "Nature Hiking",
       icon: hiking,
-      desc: "Whenever I travel with friends, we always end up hiking. My favorite trails are in Hawaii, Seattle, and Arkansas"
+      desc: "Whenever I travel with friends, we always end up hiking. My favorite trails are in Hawaii, Washington State, and Arkansas"
     },
     {
       title: "Basketball & NBA",
@@ -262,8 +262,8 @@ import {
       image: website,
       links: [
         {
-          url:"https://github.com/",
-          desc:"https://github.com/",
+          url:"https://github.com/suy3sh/suyesh_website",
+          desc:"Code Repository - Github",
         }
       ]
     },
