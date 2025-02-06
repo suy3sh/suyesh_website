@@ -58,7 +58,7 @@ const Works = () => {
               
               <div 
                 key={`project-${index}`}
-                className="bg-tertiary p-5 rounded-2xl border-2 "
+                className="bg-tertiary p-5 rounded-2xl"
               >
                 
                 {/* Project Images */}
