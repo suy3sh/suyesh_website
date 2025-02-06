@@ -11,17 +11,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function SampleArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "block" }}
-      onClick={onClick}
-    />
-  );
-}
-
 const Works = () => {
 
   return (
@@ -49,9 +38,6 @@ const Works = () => {
             centerMode={true}
             accessibility={true}
             centerPadding= "300px"
-            nextArrow= {<SampleArrow />}
-            prevArrow= {<SampleArrow />}
-            
           >
             {projects.map((project, index) => (
               
