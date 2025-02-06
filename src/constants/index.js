@@ -271,7 +271,7 @@ import {
       name: "Kitario Solar Array",
       subname: "Solar Array Schematics for Non-Profit Organization",
       description:
-        "A solar energy solution to address the critical water supply needs of the Kitario Settlement in Uganda. Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, visualized data, and outlined integrated control systems.",
+        "A solar energy solution to address the critical water supply needs of the Kitario Settlement in Uganda. Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, and visualied data",
       tags: [
         {
           name: "Circuit Design",
@@ -304,7 +304,7 @@ import {
     },
     {
       name: "SocialCures 2.0",
-      subname: "Mobile Application & Administrative Dashboard Web Application",
+      subname: "Mobile & Web Application",
       description:
         "A mobile application for college students to enhance campus safety, enabling users to view campus news and submit real-time incident reports. An online administrative dashboard to analyze user data and display analytics, integrating a Chabot capable of delivering specific data visualizations and responding to related queries",
       tags: [
