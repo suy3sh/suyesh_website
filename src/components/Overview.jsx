@@ -117,7 +117,10 @@ const Overview = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("","",0.2,1.3)} className={styles.sectionDescText}>
-      I am a recent graduate with a Bachelor of Science in Computer Science from the University of Texas at Dallas. I am passionate about software engineering, data science, and web development, and I am seeking roles in these areas. I have experience with technologies and programming languages, including Java, Python, C++, JavaScript, HTML, CSS, and SQL, and I plan to continue expanding this list.
+      I am a recent graduate with a Bachelor of Science in Computer Science from the University of Texas at Dallas. 
+      I am passionate about software engineering, data science, and web development, and I am seeking roles in these areas. 
+      I have experience with technologies and programming languages, including Java, Python, C++, JavaScript, HTML, CSS, and SQL, and I plan to continue expanding this list. <br/>
+      <span className='font-bold'>Hover over cards to learn more about me.</span>
       </motion.p>
 
 

@@ -11,22 +11,18 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-// import ReactCardCarousel from "react-card-carousel";
-
-// import Carousel from "react-multi-carousel";
-// import 'react-multi-carousel/lib/styles.css';
-
+function SampleArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "block" }}
+      onClick={onClick}
+    />
+  );
+}
 
 const Works = () => {
-  // const settings = {
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 1,
-  //   slidesToScroll: 1,
-    
-  // };
 
   return (
     <>
@@ -39,10 +35,10 @@ const Works = () => {
         These are various academic, professional, and personal projects I have worked on and contributed to in the past. 
         Each project has its own brief description, along with links to code repositories, videos, and additional information. 
         These projects reflect my ability to create solutions and showcase my ability to work with various technologies. <br/>
-        <span className='font-bold'>To navigate through the projects, click on the next card or use arrow keys.</span>
+        <span className='font-bold'>Click and drag to navigate through projects.</span>
       </motion.p>
 
-      <div className='w-full m-auto'>
+      <div className='w-full m-auto [mask:_linear-gradient(to_right,_transparent_0%,_black_5%,_black_95%,_transparent_100%)] cursor-grab'>
         <div className="mt-20">
           <Slider 
             infinite={true}
@@ -53,6 +49,9 @@ const Works = () => {
             centerMode={true}
             accessibility={true}
             centerPadding= "300px"
+            nextArrow= {<SampleArrow />}
+            prevArrow= {<SampleArrow />}
+            
           >
             {projects.map((project, index) => (
               
