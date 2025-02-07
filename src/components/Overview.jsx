@@ -112,7 +112,7 @@ const Overview = () => {
         <p className={`${styles.sectionSubText} underline`}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <div className='bg-transparent h-[200px] w-full flex items-center justify-center mb-8 mt-5'>
-          <img className="h-[200px] w-[200px] object-cover rounded-full border-4" src={suyesh}></img>       
+          <img className="h-[200px] w-[200px] object-cover rounded-full border-4" src={suyesh} alt='Suyesh Shrestha Headshot'></img>       
         </div>
       </motion.div>
 

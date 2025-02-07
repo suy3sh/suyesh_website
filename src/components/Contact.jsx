@@ -78,30 +78,31 @@ const Contact = () => {
 
       <div className="flex flex-row flex-wrap justify-center gap-16 mt-8 mb-8">
         {/* linkedin */}
-        <a href="https://www.linkedin.com/in/suyesh-shrestha-939b55241/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/suyesh-shrestha-939b55241/" target="_blank" rel="noopener noreferrer" aria-label='linkedin'>
           <FontAwesomeIcon icon={faLinkedin} className='h-[50px] w-[50px] object-contain [color:#aaa6c3] hover:[color:#ffffff]'/>
         </a>
 
         {/* github */}
-        <a href="https://github.com/suy3sh" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/suy3sh" target="_blank" rel="noopener noreferrer" aria-label='github'>
           <FontAwesomeIcon icon={faSquareGithub} className='h-[50px] w-[50px] object-contain [color:#aaa6c3] hover:[color:#ffffff]'/>
         </a>
 
         {/* instagram */}
-        <a href="https://www.instagram.com/suyesh.shres/" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/suyesh.shres/" target="_blank" rel="noopener noreferrer" aria-label='instagram'>
           <FontAwesomeIcon icon={faSquareInstagram} className='h-[50px] w-[50px] object-contain [color:#aaa6c3] hover:[color:#ffffff]'/>
         </a>
 
         {/* email */}
-        <a href="mailto:swish.shrestha@gmail.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:swish.shrestha@gmail.com" target="_blank" rel="noopener noreferrer" aria-label='email'>
           <FontAwesomeIcon icon={faEnvelope} className='h-[50px] w-[50px] object-contain [color:#aaa6c3] hover:[color:#ffffff]'/>
         </a>
       </div>
 
       <div className='flex flex-row flex-wrap justify-center gap-16 mt-8'>
         <a 
-          href="../public/Suyesh_RESUME_2025.pdf" target="_blank" rel="noopener noreferrer" 
+          href="/Suyesh_RESUME_2025.pdf" target="_blank" rel="noopener noreferrer" 
           className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-lg mb-20'
+          aria-label='resume' 
         >
           Download my Resume
         </a>

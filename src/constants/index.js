@@ -301,7 +301,7 @@ import {
           desc: "Solar Hour Optimization Functions - GitHub",
         },
         {
-          url: "../public/EPICS_Poster.pdf",
+          url: "/EPICS_Poster.pdf",
           desc: "Final Project Poster Presentation - PDF",
         },
       ],
@@ -404,7 +404,7 @@ import {
       image: lovify,
       links: [
         {
-          url: "../public/LOVIFY.pdf",
+          url: "/LOVIFY.pdf",
           desc: "LOVIFY Presentation & Demo - PowerPoint",
         }
       ],
