@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import { ComputersCanvas } from './canvas';
 import { styles } from '../styles';
 import { arrow } from '../assets';
