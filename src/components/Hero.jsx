@@ -1,4 +1,4 @@
-import { ComputersCanvas } from './canvas';
+import { NicolausCanvas } from './canvas';
 import { styles } from '../styles';
 import { arrow } from '../assets';
 
@@ -29,7 +29,7 @@ const Hero = () => {
         
       </div>
       
-      <ComputersCanvas/>
+      <NicolausCanvas/>
       
       
 

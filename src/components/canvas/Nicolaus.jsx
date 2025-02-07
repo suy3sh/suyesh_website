@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./nicolaus/scene.gltf");
+const Nicolaus = ({ isMobile }) => {
+  const nicolaus = useGLTF("./nicolaus/scene.gltf");
 
 
   return (
@@ -13,7 +13,7 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={-1} />
       <pointLight intensity={0} />
       <primitive 
-        object={computer.scene}
+        object={nicolaus.scene}
         scale={isMobile ? 1.5 : 4.8}
         position={isMobile ? [-2.5, 8, -5.5] : [-8, 25.5, -18]}
         rotation={[-0.01, -0.2, -0.1]}
@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
   )
 }
 
-const ComputersCanvas = () => {
+const NicolausCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -57,7 +57,7 @@ const ComputersCanvas = () => {
           maxPolarAngle={Math.PI/2}
           minPolarAngle={Math.PI/2}
         />
-        <Computers isMobile={isMobile}/>
+        <Nicolaus isMobile={isMobile}/>
         
       </Suspense>
       <Preload all />
@@ -66,4 +66,4 @@ const ComputersCanvas = () => {
   )
 }   
 
-export default ComputersCanvas
+export default NicolausCanvas
