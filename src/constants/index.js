@@ -57,27 +57,27 @@ import {
     {
       title: "Web/Mobile Dev",
       icon: web,
-      desc: "My senior design project required my team to create both a web application as well as a mobile application"
+      desc: "My senior design project required my team to create both a web application as well as a mobile application."
     },
     {
       title: "Software Engineering",
       icon: backend,
-      desc: "I have taken courses on various SWE topics throughout college and it continues to be one of my passions"
+      desc: "I have taken courses on various SWE topics throughout college and it continues to be one of my passions."
     },
     {
       title: "AI/Machine Learning",
       icon: creator,
-      desc: "I was a member of a student org called Artificial Intelligence Society where our goal was to demystify AI for college students"
+      desc: "I was a member of a student org called Artificial Intelligence Society where our goal was to demystify AI for college students."
     },
     {
       title: "Data Analytics",
       icon: mobile,
-      desc: "I have experience analyzing datasets to extract insights, using tools like Python and SQL for various projects"
+      desc: "I have experience analyzing datasets to extract insights, using tools like Python and SQL for various projects."
     },
     {
       title: "UI/UX Design",
       icon: uiux,
-      desc: "I love watching UI/UX overhauls of apps such as YouTube and Spotify and seeing how platforms can improve"
+      desc: "I love watching UI/UX overhauls of apps such as YouTube and Spotify and seeing how platforms can be improved."
     },
   ];
 
@@ -85,22 +85,22 @@ import {
     {
       title: "Health & Fitness",
       icon: gym,
-      desc: "I take my physical and mental health seriously and I love going to the gym for a productive lift"
+      desc: "I take my physical and mental health seriously and I love going to the gym for a productive lift."
     },
     {
       title: "Live Music & Concerts",
       icon: music,
-      desc: "I've been to festivals such as Austin City Limits and Rolling Loud and have seen a lot of my favorite artists perform live"
+      desc: "I've been to festivals such as Austin City Limits and Rolling Loud and have seen a lot of my favorite artists perform live."
     },
     {
       title: "Video Games",
       icon: gaming,
-      desc: "My all-time favorites are Call of Duty:BO3, Red Dead Redemption 2, and Elden Ring. My current obsession is Marvel Rivals"
+      desc: "My all-time favorites are Call of Duty:BO3, Red Dead Redemption 2, and Elden Ring. My current obsession is Marvel Rivals."
     },
     {
       title: "Nature Hiking",
       icon: hiking,
-      desc: "Whenever I travel with friends, we always end up hiking. My favorite trails are in Hawaii, Washington State, and Arkansas"
+      desc: "Whenever I travel with friends, we always end up hiking. My favorite trails are in Hawaii, Washington State, and Arkansas."
     },
     {
       title: "Basketball & NBA",
@@ -237,10 +237,10 @@ import {
   
   const projects = [
     {
-      name: "suyesh.com",
-      subname: "Personal Website and Portfolio",
+      name: "Suyesh's Portfolio",
+      subname: "Online Website & Portfolio",
       description:[
-        "A responsive personal website highlighting personal education, professional experience, projects, skills, and more",
+        "A responsive personal website highlighting personal interests, education, professional experience, technical skills, projects & contributions, and more",
       ],
         
       tags: [
@@ -265,7 +265,7 @@ import {
       links: [
         {
           url:"https://github.com/suy3sh/suyesh_website",
-          desc:"Code Repository - Github",
+          desc:"suyesh-website Repository - Github",
         }
       ]
     },
