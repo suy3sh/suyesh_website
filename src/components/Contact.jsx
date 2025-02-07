@@ -102,7 +102,7 @@ const Contact = () => {
         <a 
           href="/Suyesh_RESUME_2025.pdf" target="_blank" rel="noopener noreferrer" 
           className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-lg mb-20'
-          aria-label='resume' 
+          aria-label='Download my Resume' 
         >
           Download my Resume
         </a>

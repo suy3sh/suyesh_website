@@ -57,8 +57,8 @@ const Works = () => {
 
                 {/* Project Name & Description */}
                 <div className='mt-5'>
-                  <h3 className='text-white font-bold md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] '>{project.name}</h3>
-                  <h5 className='text-white font-normal md:text-[20px] sm:text-[17px] xs:text-[15px] text-[12px]  '>{project.subname}</h5>
+                  <p className='text-white font-bold md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] '>{project.name}</p>
+                  <p className='text-white font-normal md:text-[20px] sm:text-[17px] xs:text-[15px] text-[12px]  '>{project.subname}</p>
                   <ul className="list-disc ml-5 mt-5 mb-8 ">
                   {project.description.map((desc, index) => (
                       <li 
