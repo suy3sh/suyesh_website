@@ -37,17 +37,54 @@ const Works = () => {
             className="center"
             centerMode={true}
             accessibility={true}
-            centerPadding= "300px"
+            centerPadding="300px"
+            responsive= {[
+              {
+                breakpoint: 1264,
+                settings: {
+                  slidesToShow: 1,
+                  infinite: true,
+                  centerMode: true,
+                  centerPadding: "200px"
+                }
+              },
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 1,
+                  infinite: true,
+                  centerMode: true,
+                  centerPadding: "150px"
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 1,
+                  initialSlide: 1,
+                  infinite: true,
+                  centerPadding: "50px",
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  infinite: true,
+                  centerPadding: "20px",
+                }
+              }
+            ]}
           >
             {projects.map((project, index) => (
               
               <div 
                 key={`project-${index}`}
-                className="bg-tertiary p-5 rounded-2xl"
+                className="bg-tertiary p-5 rounded-2xl w-full"
               >
                 
                 {/* Project Images */}
-                <div className='relative m-auto w-full h-[300px]'>
+                <div className='relative m-auto w-full h-full'>
                    <img 
                     src={project.image}
                     alt={project.name}
@@ -56,10 +93,19 @@ const Works = () => {
                 </div>
 
                 {/* Project Name & Description */}
-                <div className='mt-5 h-[200px]'>
-                   <h3 className='text-white font-bold md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] '>{project.name}</h3>
-                   <h5 className='text-white font-normal md:text-[20px] sm:text-[17px] xs:text-[15px] text-[12px]  '>{project.subname}</h5>
-                   <p className='mt-2 text-secondary text-[16px] hidden sm:block'>{project.description}</p>
+                <div className='mt-5'>
+                  <h3 className='text-white font-bold md:text-[30px] sm:text-[25px] xs:text-[20px] text-[15px] '>{project.name}</h3>
+                  <h5 className='text-white font-normal md:text-[20px] sm:text-[17px] xs:text-[15px] text-[12px]  '>{project.subname}</h5>
+                  <ul className="list-disc ml-5 mt-5 mb-8 ">
+                  {project.description.map((desc, index) => (
+                      <li 
+                        key={`desc-${index}`}
+                        className="mt-2 text-secondary lg:text-[16px] md:text-[12px] sm:text-[0px] xs:text-[0px] text-[0px]"
+                      >
+                        {desc}
+                      </li>
+                    ))}
+                  </ul>
                  </div>
 
                 {/* Skills and Tech */}
@@ -78,7 +124,7 @@ const Works = () => {
                 </div>
                 
                 {/* Links */}
-                <div className="h-[75px]">
+                <div>
                   <div className='mt-4 text-white md:text-[18px] sm:text-[14px] xs:text-[16px] text-[16px] '>
                     Links
                   </div>

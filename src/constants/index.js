@@ -239,8 +239,10 @@ import {
     {
       name: "suyesh.com",
       subname: "Personal Website and Portfolio",
-      description:
-        "A responsive personal website highlighting personal education, professional experience, projects, skills, and more.",
+      description:[
+        "A responsive personal website highlighting personal education, professional experience, projects, skills, and more",
+      ],
+        
       tags: [
         {
           name: "JavaScript",
@@ -270,8 +272,10 @@ import {
     {
       name: "Kitario Solar Array",
       subname: "Solar Array Schematics for Non-Profit Organization",
-      description:
-        "A solar energy solution to address the critical water supply needs of the Kitario Settlement in Uganda. Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, and visualied data",
+      description:[
+        "A solar energy solution to address the critical water supply needs of the Kitario Settlement in Uganda",
+        "Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, and visualied data",
+      ],
       tags: [
         {
           name: "Circuit Design",
@@ -305,8 +309,10 @@ import {
     {
       name: "SocialCures 2.0",
       subname: "Mobile & Web Application",
-      description:
-        "A mobile application for college students to enhance campus safety, enabling users to view campus news and submit real-time incident reports. An online administrative dashboard to analyze user data and display analytics, integrating a Chabot capable of delivering specific data visualizations and responding to related queries",
+      description:[
+        "A mobile application for college students to enhance campus safety, enabling users to view campus news and submit real-time incident reports",
+        "An online administrative dashboard to analyze user data and display analytics, integrating a Chabot capable of delivering specific data visualizations and responding to related queries",
+      ],
       tags: [
         {
           name: "JavaScript",
@@ -344,8 +350,10 @@ import {
     {
       name: "Vehicle Lease IQ Bot",
       subname: "Document Processing Automation",
-      description:
-        "A intelligent document processing solution that extracts specific information from unstructered data (Electric Vehicle Lease Forms) for data analyzation within GM Financial. Extracted data is then handled by robotic process automation bots to processed",
+      description:[
+        "A intelligent document processing solution that extracts specific information from unstructered data (Electric Vehicle Lease Forms) for data analyzation within GM Financial",
+        "Extracted data is then handled abd prepared by robotic process automation bots tfor processing",
+      ],
       tags: [
         {
           name: "Python",
@@ -370,9 +378,11 @@ import {
     },
     {
       name: "Lovify",
-      subname: "Song Recommender/Classifier Social Media Platform",
-      description:
-        "A web application that analyzes music preferences to compute compatibility between users and provide personalized music recommendations. Includes a recommendation System based on a user's top 50 songs",
+      subname: "Song Recommender/Classifier Web Application",
+      description:[
+        "A web application that analyzes music preferences to compute compatibility between users and provide personalized music recommendations",
+        "Includes a recommendation System based on a user's top 50 songs",
+      ],
       tags: [
         {
           name: "Python",
