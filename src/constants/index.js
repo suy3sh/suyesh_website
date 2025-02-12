@@ -274,7 +274,7 @@ import {
       subname: "Solar Array Schematics for Non-Profit Organization",
       description:[
         "A solar energy solution to address the critical water supply needs of the Kitario Settlement in Uganda",
-        "Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, and visualied data",
+        "Provided detailed logistics and a comprehensive conceptual framework to the Kellermann Foundation, including design details, and visualized data",
       ],
       tags: [
         {
@@ -351,8 +351,8 @@ import {
       name: "Vehicle Lease IQ Bot",
       subname: "Document Processing Automation",
       description:[
-        "A intelligent document processing solution that extracts specific information from unstructered data (Electric Vehicle Lease Forms) for data analyzation within GM Financial",
-        "Extracted data is then handled abd prepared by robotic process automation bots tfor processing",
+        "An intelligent document processing solution that extracts specific information from unstructered data (Electric Vehicle Lease Forms) for data analyzation within GM Financial",
+        "Extracted data is then handled and prepared by robotic process automation bots for processing",
       ],
       tags: [
         {
